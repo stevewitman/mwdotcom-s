@@ -1,0 +1,30 @@
+/*
+  colors:
+  #E5DCC9 tan
+  #E4B9B3 pink
+  #613943 maroon
+  #839973 sage
+  #36374A cobalt
+*/
+.mw-body {
+  border: 0px;
+  margin: 0px;
+  background-color: #E5DCC9;
+  color: #613943;
+  font-family: Georgia, serif;
+}
+.mw-upper-middle {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.mw-boxes {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 50px;
+}
